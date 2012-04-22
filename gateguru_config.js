@@ -32,6 +32,7 @@ Optional Variables:
 */
 {
   port: 8125,
+  mgmt_port: process.env.PORT,
   debug: true
   // graphitePort: 2003,
   // graphiteHost: "graphite.host.com"
